@@ -13,6 +13,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'ladle'
+gem 'pg'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
