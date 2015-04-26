@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use SCSS for stylesheets
@@ -13,7 +12,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer',  platforms: :ruby
 
 gem 'ladle'
-gem 'pg'
+gem 'sqlite3'
 gem 'capistrano',  '~> 3.1'
 gem 'capistrano-rails', '~> 1.1'
 gem 'capistrano-passenger'
