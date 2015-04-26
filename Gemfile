@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'ladle'
 gem 'pg'
+gem 'capistrano',  '~> 3.1'
+gem 'capistrano-rails', '~> 1.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
