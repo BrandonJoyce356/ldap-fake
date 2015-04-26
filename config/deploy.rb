@@ -30,9 +30,6 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp', 'vendor/bundle', 'p
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
-set :default_env, {
-  'TMPDIR' => 'tmp',
-}
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
